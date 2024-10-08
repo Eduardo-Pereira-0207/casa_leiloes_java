@@ -34,6 +34,12 @@ public class ProdutosDTO {
 
     public void setId(Integer id) {
         this.id = id;
+        
+        
+        
+        
+        
+        
     }
 
     public void setNome(String nome) {

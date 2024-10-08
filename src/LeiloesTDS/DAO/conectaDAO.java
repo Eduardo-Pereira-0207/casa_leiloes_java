@@ -21,7 +21,7 @@ public class conectaDAO {
 
     public Connection connectDB() {
         try {
-            Connection conn = DriverManager.getConnection(URL,USER,PASSWORD);
+            Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
             return conn;
 
         } catch (SQLException erro) {
