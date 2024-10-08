@@ -37,6 +37,10 @@ public class ProdutosDTO {
 
     public void setNome(String nome) {
         this.nome = nome;
+        
+        
+      //aa 
+        
     }
 
     public void setValor(Integer valor) {
