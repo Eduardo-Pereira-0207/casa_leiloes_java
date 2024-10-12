@@ -20,6 +20,8 @@ public class conectaDAO {
     private static final String PASSWORD = "root";
 
     
+   
+   
     public Connection connectDB() {
         try {
             Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
