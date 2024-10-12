@@ -18,7 +18,7 @@ public class conectaDAO {
     private static final String URL = "jdbc:mysql://127.0.0.1:3306/uc11?characterEncoding=utf-8";
     private static final String USER = "root";
     private static final String PASSWORD = "root";
-
+    
     public Connection connectDB() {
         try {
             Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
@@ -28,5 +28,7 @@ public class conectaDAO {
             JOptionPane.showMessageDialog(null, "Erro ao conectar" + erro.getMessage());
             return null;
         }
+        
     }
+    
 }
